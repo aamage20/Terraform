@@ -6,7 +6,7 @@ module "ec2" {
     subnet_id = module.vpc.public_subnet_ids #### if it contain list then syntax will be element[module.vpc.public_subnet_ids, [0]]
   
 }
-
+#####vpc
 module "vpc" {
     source = "./Modules/vpc"
     vpc_cidr = var.vpc_cidr
