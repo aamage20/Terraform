@@ -1,11 +1,12 @@
 provider "aws" {
-    region = "ap-northeast-2"
-    profile = "shubham"
+    region = "ap-south-1"
+    access_key = "AWS_ACCESS_KEY"
+    secret_key = "AWS_SECRET_KEY"
   
 }
 ###
 # provider "aws" {
-#   region     = "us-east-1"
+#   region = "ap-south-1"
 #   access_key = "your-access-key"
 #   secret_key = "your-secret-key"
 # }
